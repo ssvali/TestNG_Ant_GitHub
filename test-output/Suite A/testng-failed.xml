@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite A]" parallel="none">
+  <test name="Test_Training(failed)" parallel="none">
+    <classes>
+      <class name="com.NTTDATA.MobWebAppAut.Test.TC1MobileRecharge">
+        <methods>
+          <include name="launch"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.NTTDATA.MobWebAppAut.Test.TC1MobileRecharge -->
+      <class name="com.NTTDATA.MobWebAppAut.Test.TC2DTHRecharge">
+        <methods>
+          <include name="TC2DTH_Recharge"/>
+        </methods>
+      </class> <!-- com.NTTDATA.MobWebAppAut.Test.TC2DTHRecharge -->
+    </classes>
+  </test> <!-- Test_Training(failed) -->
+</suite> <!-- Failed suite [Suite A] -->

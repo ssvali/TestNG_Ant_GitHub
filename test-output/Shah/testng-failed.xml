@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Shah]" parallel="none">
+  <test name="Test_Training(failed)" parallel="none">
+    <classes>
+      <class name="DSMB.TC">
+        <methods>
+          <include name="TestCase1"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- DSMB.TC -->
+    </classes>
+  </test> <!-- Test_Training(failed) -->
+</suite> <!-- Failed suite [Shah] -->

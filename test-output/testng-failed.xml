@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]" parallel="none">
+  <test name="Test_Training(failed)" parallel="none">
+    <classes>
+      <class name="com.NTTDATA.MobWebAppAut.JLL_TestCases.JLL_UAT_TC_1">
+        <methods>
+          <include name="launch"/>
+          <include name="tearDown"/>
+          <include name="JLL_UAT_TC_One"/>
+        </methods>
+      </class> <!-- com.NTTDATA.MobWebAppAut.JLL_TestCases.JLL_UAT_TC_1 -->
+      <class name="com.NTTDATA.MobWebAppAut.JLL_TestCases.JLL_Login">
+        <methods>
+          <include name="JLL_Login_TC"/>
+        </methods>
+      </class> <!-- com.NTTDATA.MobWebAppAut.JLL_TestCases.JLL_Login -->
+    </classes>
+  </test> <!-- Test_Training(failed) -->
+</suite> <!-- Failed suite [suite1] -->
